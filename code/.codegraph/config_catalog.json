@@ -1,0 +1,590 @@
+{
+  "generated_at": "2026-06-12T12:56:13.077292+00:00",
+  "source": "vb6_direct",
+  "items": [
+    {
+      "config_id": "cfg-0001",
+      "config_type": "hardcoded_constant",
+      "key": "ConnectionENTORNO_PRO",
+      "value": "PRO",
+      "source_file": "ext_histo/InCbk/bas/InCbkConexion_oracle.bas",
+      "line_start": 11
+    },
+    {
+      "config_id": "cfg-0002",
+      "config_type": "hardcoded_constant",
+      "key": "ConnectionENTORNO_PRE",
+      "value": "PRE",
+      "source_file": "ext_histo/InCbk/bas/InCbkConexion_oracle.bas",
+      "line_start": 12
+    },
+    {
+      "config_id": "cfg-0003",
+      "config_type": "hardcoded_constant",
+      "key": "ConnectionUser_MU",
+      "value": "OWPCOME021",
+      "source_file": "ext_histo/InCbk/bas/InCbkConexion_oracle.bas",
+      "line_start": 14
+    },
+    {
+      "config_id": "cfg-0004",
+      "config_type": "hardcoded_constant",
+      "key": "ConnectionUser_GAP",
+      "value": "OWPCOME011",
+      "source_file": "ext_histo/InCbk/bas/InCbkConexion_oracle.bas",
+      "line_start": 15
+    },
+    {
+      "config_id": "cfg-0005",
+      "config_type": "hardcoded_constant",
+      "key": "dbPERSONAS",
+      "value": "personas",
+      "source_file": "ext_histo/InCbk/bas/InCbkConexion_oracle.bas",
+      "line_start": 17
+    },
+    {
+      "config_id": "cfg-0006",
+      "config_type": "hardcoded_constant",
+      "key": "TB_MAESTRAS_U_CPV",
+      "value": "CENTROS_PLATAFORMA_VIRTUAL",
+      "source_file": "ext_histo/InCbk/bas/InCbkConexion_oracle.bas",
+      "line_start": 18
+    },
+    {
+      "config_id": "cfg-0007",
+      "config_type": "hardcoded_constant",
+      "key": "TB_MAESTRAS_U_MAILS",
+      "value": "CENTROS_CUENTAS_MAIL",
+      "source_file": "ext_histo/InCbk/bas/InCbkConexion_oracle.bas",
+      "line_start": 19
+    },
+    {
+      "config_id": "cfg-0008",
+      "config_type": "hardcoded_constant",
+      "key": "NivelConsulta",
+      "value": "Consulta",
+      "source_file": "ext_histo/InCbk/bas/InCbkConexion_oracle.bas",
+      "line_start": 102
+    },
+    {
+      "config_id": "cfg-0009",
+      "config_type": "hardcoded_constant",
+      "key": "NivelOperador",
+      "value": "Operador",
+      "source_file": "ext_histo/InCbk/bas/InCbkConexion_oracle.bas",
+      "line_start": 106
+    },
+    {
+      "config_id": "cfg-0010",
+      "config_type": "hardcoded_constant",
+      "key": "NivelSupervisor",
+      "value": "Supervisor",
+      "source_file": "ext_histo/InCbk/bas/InCbkConexion_oracle.bas",
+      "line_start": 110
+    },
+    {
+      "config_id": "cfg-0011",
+      "config_type": "hardcoded_constant",
+      "key": "NivelGerencia",
+      "value": "Gerencia",
+      "source_file": "ext_histo/InCbk/bas/InCbkConexion_oracle.bas",
+      "line_start": 114
+    },
+    {
+      "config_id": "cfg-0012",
+      "config_type": "hardcoded_constant",
+      "key": "NivelAdministrador",
+      "value": "Administrador",
+      "source_file": "ext_histo/InCbk/bas/InCbkConexion_oracle.bas",
+      "line_start": 118
+    },
+    {
+      "config_id": "cfg-0013",
+      "config_type": "hardcoded_constant",
+      "key": "SUB_NAME",
+      "value": "sc_Subclass",
+      "source_file": "ext_histo/InCbk/ctl/InCbkButton.ctl",
+      "line_start": 1374
+    },
+    {
+      "config_id": "cfg-0014",
+      "config_type": "hardcoded_constant",
+      "key": "m_def_AnversoImagen",
+      "value": "",
+      "source_file": "ext_histo/InImage.ctl",
+      "line_start": 381
+    },
+    {
+      "config_id": "cfg-0015",
+      "config_type": "hardcoded_constant",
+      "key": "m_def_ReversoImagen",
+      "value": "",
+      "source_file": "ext_histo/InImage.ctl",
+      "line_start": 382
+    },
+    {
+      "config_id": "cfg-0016",
+      "config_type": "hardcoded_constant",
+      "key": "m_def_Formato",
+      "value": "",
+      "source_file": "ext_histo/InText.ctl",
+      "line_start": 97
+    },
+    {
+      "config_id": "cfg-0017",
+      "config_type": "hardcoded_constant",
+      "key": "m_def_Value",
+      "value": "",
+      "source_file": "ext_histo/InText.ctl",
+      "line_start": 99
+    },
+    {
+      "config_id": "cfg-0018",
+      "config_type": "hardcoded_constant",
+      "key": "m_def_ListaValores",
+      "value": "",
+      "source_file": "ext_histo/InText.ctl",
+      "line_start": 104
+    },
+    {
+      "config_id": "cfg-0019",
+      "config_type": "hardcoded_constant",
+      "key": "sTexto",
+      "value": "ABCDEFGHIJKLMNÑOPQRSTUVWXYZabcdefghijklmnñopqrstuvwxyz",
+      "source_file": "ext_histo/InText.ctl",
+      "line_start": 107
+    },
+    {
+      "config_id": "cfg-0020",
+      "config_type": "hardcoded_constant",
+      "key": "m_def_Campo",
+      "value": "",
+      "source_file": "ext_histo/InText.ctl",
+      "line_start": 108
+    },
+    {
+      "config_id": "cfg-0021",
+      "config_type": "hardcoded_constant",
+      "key": "TB_MAESTRAS_U_CPV",
+      "value": "CENTROS_PLATAFORMA_VIRTUAL",
+      "source_file": "ext_histo/bas/mod_PV.bas",
+      "line_start": 6
+    },
+    {
+      "config_id": "cfg-0022",
+      "config_type": "hardcoded_constant",
+      "key": "TB_MAESTRAS_U_MAILS",
+      "value": "CENTROS_CUENTAS_MAIL",
+      "source_file": "ext_histo/bas/mod_PV.bas",
+      "line_start": 7
+    },
+    {
+      "config_id": "cfg-0023",
+      "config_type": "hardcoded_constant",
+      "key": "gREGKEYSYSINFOLOC",
+      "value": "SOFTWARE\\Microsoft\\Shared Tools Location",
+      "source_file": "ext_histo/frm/InCbkfrm_AcercaDe.frm",
+      "line_start": 290
+    },
+    {
+      "config_id": "cfg-0024",
+      "config_type": "hardcoded_constant",
+      "key": "gREGVALSYSINFOLOC",
+      "value": "MSINFO",
+      "source_file": "ext_histo/frm/InCbkfrm_AcercaDe.frm",
+      "line_start": 291
+    },
+    {
+      "config_id": "cfg-0025",
+      "config_type": "hardcoded_constant",
+      "key": "gREGKEYSYSINFO",
+      "value": "SOFTWARE\\Microsoft\\Shared Tools\\MSINFO",
+      "source_file": "ext_histo/frm/InCbkfrm_AcercaDe.frm",
+      "line_start": 292
+    },
+    {
+      "config_id": "cfg-0026",
+      "config_type": "hardcoded_constant",
+      "key": "gREGVALSYSINFO",
+      "value": "PATH",
+      "source_file": "ext_histo/frm/InCbkfrm_AcercaDe.frm",
+      "line_start": 293
+    },
+    {
+      "config_id": "cfg-0027",
+      "config_type": "hardcoded_constant",
+      "key": "ConnectionUser_EX",
+      "value": "OWPCOME061",
+      "source_file": "ext_histo/modBD.bas",
+      "line_start": 17
+    },
+    {
+      "config_id": "cfg-0028",
+      "config_type": "hardcoded_constant",
+      "key": "ConnectionUser_SD",
+      "value": "OWPCOME071",
+      "source_file": "ext_histo/modBD.bas",
+      "line_start": 20
+    },
+    {
+      "config_id": "cfg-0029",
+      "config_type": "hardcoded_constant",
+      "key": "mConBD_TB_CHEQUES",
+      "value": "CHEQUES",
+      "source_file": "ext_histo/modBD.bas",
+      "line_start": 25
+    },
+    {
+      "config_id": "cfg-0030",
+      "config_type": "hardcoded_constant",
+      "key": "mConBD_TB_VC_CHEQUES",
+      "value": "VC_CHEQUES",
+      "source_file": "ext_histo/modBD.bas",
+      "line_start": 28
+    },
+    {
+      "config_id": "cfg-0031",
+      "config_type": "hardcoded_constant",
+      "key": "mConBD_TB_INICI",
+      "value": "INICI",
+      "source_file": "ext_histo/modBD.bas",
+      "line_start": 30
+    },
+    {
+      "config_id": "cfg-0032",
+      "config_type": "hardcoded_constant",
+      "key": "mConBD_TB_HISBOLETIN",
+      "value": "HIS_BOLETIN",
+      "source_file": "ext_histo/modBD.bas",
+      "line_start": 31
+    },
+    {
+      "config_id": "cfg-0033",
+      "config_type": "hardcoded_constant",
+      "key": "mConBD_TB_BOLETIN",
+      "value": "BOLETIN",
+      "source_file": "ext_histo/modBD.bas",
+      "line_start": 32
+    },
+    {
+      "config_id": "cfg-0034",
+      "config_type": "hardcoded_constant",
+      "key": "mConBD_TB_REMESAS",
+      "value": "REMESAS",
+      "source_file": "ext_histo/modBD.bas",
+      "line_start": 34
+    },
+    {
+      "config_id": "cfg-0035",
+      "config_type": "hardcoded_constant",
+      "key": "mConBD_TB_DOCUMENTOS",
+      "value": "DOCUMENTOS",
+      "source_file": "ext_histo/modBD.bas",
+      "line_start": 35
+    },
+    {
+      "config_id": "cfg-0036",
+      "config_type": "hardcoded_constant",
+      "key": "mConBD_TB_ENVIODET",
+      "value": "ENVIO_DET",
+      "source_file": "ext_histo/modBD.bas",
+      "line_start": 36
+    },
+    {
+      "config_id": "cfg-0037",
+      "config_type": "hardcoded_constant",
+      "key": "mConBD_TB_ENVIOTOT",
+      "value": "ENVIO_TOT",
+      "source_file": "ext_histo/modBD.bas",
+      "line_start": 37
+    },
+    {
+      "config_id": "cfg-0038",
+      "config_type": "hardcoded_constant",
+      "key": "mConBD_TB_ENVIORES",
+      "value": "ENVIO_RES",
+      "source_file": "ext_histo/modBD.bas",
+      "line_start": 38
+    },
+    {
+      "config_id": "cfg-0039",
+      "config_type": "hardcoded_constant",
+      "key": "TB_CONFIG_EMAILS",
+      "value": "CONFIG_EMAILS",
+      "source_file": "ext_histo/modBD.bas",
+      "line_start": 76
+    },
+    {
+      "config_id": "cfg-0040",
+      "config_type": "hardcoded_constant",
+      "key": "TbConfigINI",
+      "value": "config_ini",
+      "source_file": "ext_histo/modBD.bas",
+      "line_start": 77
+    },
+    {
+      "config_id": "cfg-0041",
+      "config_type": "hardcoded_constant",
+      "key": "TbAplicMails",
+      "value": "APLICACIONES_MAILS",
+      "source_file": "ext_histo/modBD.bas",
+      "line_start": 78
+    },
+    {
+      "config_id": "cfg-0042",
+      "config_type": "hardcoded_constant",
+      "key": "TB_CHEQUES",
+      "value": "SYN_CHEQUES",
+      "source_file": "ext_histo/modEstadisticasExtranjero.bas",
+      "line_start": 12
+    },
+    {
+      "config_id": "cfg-0043",
+      "config_type": "hardcoded_constant",
+      "key": "TB_ESTADIS1",
+      "value": "ESTADIS1",
+      "source_file": "ext_histo/modEstadisticasExtranjero.bas",
+      "line_start": 13
+    },
+    {
+      "config_id": "cfg-0044",
+      "config_type": "hardcoded_constant",
+      "key": "TB_ESTADIS2",
+      "value": "ESTADIS2",
+      "source_file": "ext_histo/modEstadisticasExtranjero.bas",
+      "line_start": 14
+    },
+    {
+      "config_id": "cfg-0045",
+      "config_type": "hardcoded_constant",
+      "key": "TB_ESTADI_PAIS",
+      "value": "ESTADIS_PAIS",
+      "source_file": "ext_histo/modEstadisticasExtranjero.bas",
+      "line_start": 15
+    },
+    {
+      "config_id": "cfg-0046",
+      "config_type": "hardcoded_constant",
+      "key": "TB_DIVISAS_UME",
+      "value": "DIVISAS_UME",
+      "source_file": "ext_histo/modEstadisticasExtranjero.bas",
+      "line_start": 16
+    },
+    {
+      "config_id": "cfg-0047",
+      "config_type": "hardcoded_constant",
+      "key": "TB_TMP_CHEQUES",
+      "value": "TMP_CHEQUES",
+      "source_file": "ext_histo/modEstadisticasExtranjero.bas",
+      "line_start": 17
+    },
+    {
+      "config_id": "cfg-0048",
+      "config_type": "hardcoded_constant",
+      "key": "TB_CORRESPONSALES",
+      "value": "CORRESPONSALES",
+      "source_file": "ext_histo/modEstadisticasExtranjero.bas",
+      "line_start": 18
+    },
+    {
+      "config_id": "cfg-0049",
+      "config_type": "hardcoded_constant",
+      "key": "CONST_ENTIDAD",
+      "value": "2100",
+      "source_file": "ext_histo/modEstadisticasExtranjero.bas",
+      "line_start": 19
+    },
+    {
+      "config_id": "cfg-0050",
+      "config_type": "hardcoded_constant",
+      "key": "CONST_ENTIDAD_BKIA",
+      "value": "2038",
+      "source_file": "ext_histo/modEstadisticasExtranjero.bas",
+      "line_start": 20
+    },
+    {
+      "config_id": "cfg-0051",
+      "config_type": "hardcoded_constant",
+      "key": "CONST_EXT_TIF",
+      "value": "tif",
+      "source_file": "ext_histo/modIMG.bas",
+      "line_start": 4
+    },
+    {
+      "config_id": "cfg-0052",
+      "config_type": "hardcoded_constant",
+      "key": "mINI_NOMBRE_FICHERO_INI",
+      "value": "ExtHisto.ini",
+      "source_file": "ext_histo/modINI.bas",
+      "line_start": 8
+    },
+    {
+      "config_id": "cfg-0053",
+      "config_type": "hardcoded_constant",
+      "key": "mINI_SECCION_CONFIG",
+      "value": "CONFIGURACION",
+      "source_file": "ext_histo/modINI.bas",
+      "line_start": 10
+    },
+    {
+      "config_id": "cfg-0054",
+      "config_type": "hardcoded_constant",
+      "key": "mINI_CLAVE_ENTORNO",
+      "value": "ENTORNO",
+      "source_file": "ext_histo/modINI.bas",
+      "line_start": 11
+    },
+    {
+      "config_id": "cfg-0055",
+      "config_type": "hardcoded_constant",
+      "key": "mINI_CLAVE_PATHSRELATIVOS",
+      "value": "PATHS_RELATIVOS",
+      "source_file": "ext_histo/modINI.bas",
+      "line_start": 12
+    },
+    {
+      "config_id": "cfg-0056",
+      "config_type": "hardcoded_constant",
+      "key": "mINI_CLAVE_ACTIVARLOGS",
+      "value": "ACTIVAR_LOGS",
+      "source_file": "ext_histo/modINI.bas",
+      "line_start": 13
+    },
+    {
+      "config_id": "cfg-0057",
+      "config_type": "hardcoded_constant",
+      "key": "mINI_CLAVE_EXTHISTOLOG",
+      "value": "EXTHISTOLOG",
+      "source_file": "ext_histo/modINI.bas",
+      "line_start": 14
+    },
+    {
+      "config_id": "cfg-0058",
+      "config_type": "hardcoded_constant",
+      "key": "mINI_CLAVE_MODOINFORMIX",
+      "value": "MODOINFORMIX",
+      "source_file": "ext_histo/modINI.bas",
+      "line_start": 15
+    },
+    {
+      "config_id": "cfg-0059",
+      "config_type": "hardcoded_constant",
+      "key": "mINI_SECCION_PATHS",
+      "value": "PATHS",
+      "source_file": "ext_histo/modINI.bas",
+      "line_start": 17
+    },
+    {
+      "config_id": "cfg-0060",
+      "config_type": "hardcoded_constant",
+      "key": "mINI_CLAVE_PATH_FICHEROS_LOG",
+      "value": "FICHEROS_LOG",
+      "source_file": "ext_histo/modINI.bas",
+      "line_start": 18
+    },
+    {
+      "config_id": "cfg-0061",
+      "config_type": "hardcoded_constant",
+      "key": "mINI_CLAVE_PATH_FICHEROS_TMP",
+      "value": "FICHEROS_TMP",
+      "source_file": "ext_histo/modINI.bas",
+      "line_start": 19
+    },
+    {
+      "config_id": "cfg-0062",
+      "config_type": "hardcoded_constant",
+      "key": "mINI_CLAVE_PATH_FICHEROS_ESTADISTICAS",
+      "value": "FICHEROS_ESTADISTICAS",
+      "source_file": "ext_histo/modINI.bas",
+      "line_start": 21
+    },
+    {
+      "config_id": "cfg-0063",
+      "config_type": "hardcoded_constant",
+      "key": "mLogs_NOMBRE_FICHERO_LOG",
+      "value": "ExtHisto.log",
+      "source_file": "ext_histo/modLogs.bas",
+      "line_start": 6
+    },
+    {
+      "config_id": "cfg-0064",
+      "config_type": "hardcoded_constant",
+      "key": "mLogs_DEF_ACTIVARLOGS",
+      "value": "S",
+      "source_file": "ext_histo/modLogs.bas",
+      "line_start": 7
+    },
+    {
+      "config_id": "cfg-0065",
+      "config_type": "hardcoded_constant",
+      "key": "mMain_NOMBREAPLICACION",
+      "value": "Histórico Extranjero",
+      "source_file": "ext_histo/modMain.bas",
+      "line_start": 15
+    },
+    {
+      "config_id": "cfg-0066",
+      "config_type": "hardcoded_constant",
+      "key": "MARCA_USUARIO",
+      "value": "/U:",
+      "source_file": "ext_histo/modMain.bas",
+      "line_start": 80
+    },
+    {
+      "config_id": "cfg-0067",
+      "config_type": "hardcoded_constant",
+      "key": "MARCA_DIGITO",
+      "value": "/D:",
+      "source_file": "ext_histo/modMain.bas",
+      "line_start": 81
+    },
+    {
+      "config_id": "cfg-0068",
+      "config_type": "hardcoded_constant",
+      "key": "MARCA_PASSWORD",
+      "value": "/P:",
+      "source_file": "ext_histo/modMain.bas",
+      "line_start": 82
+    },
+    {
+      "config_id": "cfg-0069",
+      "config_type": "hardcoded_constant",
+      "key": "SEPARADOR",
+      "value": "|",
+      "source_file": "ext_histo/modMain.bas",
+      "line_start": 199
+    },
+    {
+      "config_id": "cfg-0070",
+      "config_type": "hardcoded_constant",
+      "key": "mPath_DEF_FICHEROS_ESTADISTICAS",
+      "value": "estadisticas\\",
+      "source_file": "ext_histo/modPath.bas",
+      "line_start": 10
+    },
+    {
+      "config_id": "cfg-0071",
+      "config_type": "hardcoded_constant",
+      "key": "mPath_DEF_PATHSRELATIVOS",
+      "value": "S",
+      "source_file": "ext_histo/modPath.bas",
+      "line_start": 12
+    },
+    {
+      "config_id": "cfg-0072",
+      "config_type": "hardcoded_constant",
+      "key": "mPath_DEF_FICHEROS_LOG",
+      "value": "Logs\\",
+      "source_file": "ext_histo/modPath.bas",
+      "line_start": 13
+    },
+    {
+      "config_id": "cfg-0073",
+      "config_type": "hardcoded_constant",
+      "key": "mPath_DEF_FICHEROS_TMP",
+      "value": "Tmp\\",
+      "source_file": "ext_histo/modPath.bas",
+      "line_start": 14
+    }
+  ]
+}

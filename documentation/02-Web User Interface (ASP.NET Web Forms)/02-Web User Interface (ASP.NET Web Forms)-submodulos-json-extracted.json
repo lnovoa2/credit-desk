@@ -1,0 +1,46 @@
+{
+  "metadata": {
+    "fecha_analisis": "2026-08-10",
+    "total_modulos": 6,
+    "version": "1.0",
+    "cobertura": "100%"
+  },
+  "submodules": [
+    {
+      "id": "mod_01",
+      "title": "Master Page Layout and Navigation",
+      "codigo": "UI_MASTER",
+      "iterado": "1"
+    },
+    {
+      "id": "mod_02",
+      "title": "Operations Dashboard Page",
+      "codigo": "UI_DASHBOARD",
+      "iterado": "1"
+    },
+    {
+      "id": "mod_03",
+      "title": "Customer Credit File Page",
+      "codigo": "UI_CUSTOMERS",
+      "iterado": "1"
+    },
+    {
+      "id": "mod_04",
+      "title": "Order Entry and Credit Authorization Page",
+      "codigo": "UI_ORDER_ENTRY",
+      "iterado": "1"
+    },
+    {
+      "id": "mod_05",
+      "title": "Batch Monitor and Manual Trigger Page",
+      "codigo": "UI_BATCH",
+      "iterado": "1"
+    },
+    {
+      "id": "mod_06",
+      "title": "Application Stylesheet",
+      "codigo": "UI_STYLES",
+      "iterado": "1"
+    }
+  ]
+}

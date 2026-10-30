@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "fecha_analisis": "2026-08-10",
+    "total_modulos": 7,
+    "version": "1.0",
+    "cobertura": "100%"
+  },
+  "modules": [
+    {
+      "id": "mod_01",
+      "title": "Application Bootstrap and Global Lifecycle",
+      "codigo": "APP_BOOTSTRAP",
+      "iterado": "1"
+    },
+    {
+      "id": "mod_02",
+      "title": "Credit Decision Engine",
+      "codigo": "CREDIT_DECISION",
+      "iterado": "1"
+    },
+    {
+      "id": "mod_03",
+      "title": "Data Access and Persistence Layer",
+      "codigo": "DATA_ACCESS",
+      "iterado": "1"
+    },
+    {
+      "id": "mod_04",
+      "title": "Global In-Memory State",
+      "codigo": "GLOBAL_STATE",
+      "iterado": "1"
+    },
+    {
+      "id": "mod_05",
+      "title": "Nightly Batch Processing",
+      "codigo": "NIGHTLY_BATCH",
+      "iterado": "1"
+    },
+    {
+      "id": "mod_06",
+      "title": "Web User Interface (ASP.NET Web Forms)",
+      "codigo": "WEB_UI",
+      "iterado": "1"
+    },
+    {
+      "id": "mod_07",
+      "title": "Infrastructure, Configuration and Scripts",
+      "codigo": "INFRA_CONFIG",
+      "iterado": "1"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "metadata": {
+    "fecha_analisis": "2026-08-10",
+    "total_modulos": 6,
+    "version": "1.0",
+    "cobertura": "100%"
+  },
+  "submodules": [
+    {
+      "id": "mod_01",
+      "title": "Database Initialization and Schema Management",
+      "codigo": "DB_SCHEMA",
+      "iterado": "1"
+    },
+    {
+      "id": "mod_02",
+      "title": "DataSet Builder and In-Memory Schema",
+      "codigo": "DATASET_SCHEMA",
+      "iterado": "1"
+    },
+    {
+      "id": "mod_03",
+      "title": "Full Dataset Load - Read Operations",
+      "codigo": "DATA_LOAD",
+      "iterado": "1"
+    },
+    {
+      "id": "mod_04",
+      "title": "Transactional Persist - Write Operations",
+      "codigo": "DATA_SAVE",
+      "iterado": "1"
+    },
+    {
+      "id": "mod_05",
+      "title": "Direct SQL Query Aggregates",
+      "codigo": "SQL_AGGREGATES",
+      "iterado": "1"
+    },
+    {
+      "id": "mod_06",
+      "title": "Seed Data and Database Bootstrap",
+      "codigo": "DB_SEED",
+      "iterado": "1"
+    }
+  ]
+}

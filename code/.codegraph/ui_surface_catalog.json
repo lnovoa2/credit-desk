@@ -1,0 +1,649 @@
+{
+  "generated_at": "2026-06-12T12:56:13.076105+00:00",
+  "source": "vb6_direct",
+  "surfaces": [
+    {
+      "surface_id": "ui-ext_histo_FrmTareas_frm",
+      "screen_id": "FrmTareas",
+      "title": "Tareas",
+      "surface_type": "form",
+      "source_file": "ext_histo/FrmTareas.frm",
+      "labels": [
+        "En curso...",
+        "Nombre Sub Tarea",
+        "Nombre Tarea"
+      ],
+      "fields": [],
+      "buttons": [
+        "btn_ok"
+      ],
+      "events": [
+        {
+          "event": "btn_ok_Click",
+          "line_start": 280
+        }
+      ],
+      "has_direct_sql": false,
+      "navigates_to": [],
+      "language": "vb6"
+    },
+    {
+      "surface_id": "ui-ext_histo_InCbk_ctl_InCbkButton_ctl",
+      "screen_id": "InCbkButton",
+      "title": "InCbkButton",
+      "surface_type": "user_control",
+      "source_file": "ext_histo/InCbk/ctl/InCbkButton.ctl",
+      "labels": [],
+      "fields": [],
+      "buttons": [],
+      "events": [
+        {
+          "event": "UserControl_Initialize",
+          "line_start": 517
+        },
+        {
+          "event": "UserControl_KeyDown",
+          "line_start": 535
+        },
+        {
+          "event": "UserControl_Click",
+          "line_start": 548
+        },
+        {
+          "event": "UserControl_MouseDown",
+          "line_start": 553
+        },
+        {
+          "event": "UserControl_MouseUp",
+          "line_start": 570
+        },
+        {
+          "event": "UserControl_DblClick",
+          "line_start": 582
+        },
+        {
+          "event": "UserControl_Resize",
+          "line_start": 624
+        },
+        {
+          "event": "UserControl_Terminate",
+          "line_start": 1299
+        },
+        {
+          "event": "sc_Terminate",
+          "line_start": 1454
+        }
+      ],
+      "has_direct_sql": true,
+      "navigates_to": [],
+      "language": "vb6"
+    },
+    {
+      "surface_id": "ui-ext_histo_InImage_ctl",
+      "screen_id": "InImage",
+      "title": "Posición",
+      "surface_type": "user_control",
+      "source_file": "ext_histo/InImage.ctl",
+      "labels": [
+        "00/00"
+      ],
+      "fields": [],
+      "buttons": [
+        "btnReverso",
+        "cmdAlto",
+        "btnPrimero",
+        "btnAnterior",
+        "btnSiguiente",
+        "btnUltimo",
+        "btnAnverso",
+        "btn_Imprimir",
+        "btn_RotarDerecha",
+        "btn_rotarIzquierda",
+        "cmd_mag",
+        "cmdAmpliar",
+        "cmdReducir",
+        "cmdAncho",
+        "btn_rotar"
+      ],
+      "events": [
+        {
+          "event": "btnAnterior_Click",
+          "line_start": 457
+        },
+        {
+          "event": "btnPrimero_Click",
+          "line_start": 469
+        },
+        {
+          "event": "btnSiguiente_Click",
+          "line_start": 482
+        },
+        {
+          "event": "btnUltimo_Click",
+          "line_start": 494
+        },
+        {
+          "event": "UserControl_Resize",
+          "line_start": 506
+        },
+        {
+          "event": "UserControl_Terminate",
+          "line_start": 646
+        },
+        {
+          "event": "btn_rotarDerecha_Click",
+          "line_start": 694
+        },
+        {
+          "event": "btn_rotarIzquierda_Click",
+          "line_start": 703
+        },
+        {
+          "event": "btn_imprimir_Click",
+          "line_start": 744
+        },
+        {
+          "event": "cmd_mag_Click",
+          "line_start": 755
+        },
+        {
+          "event": "cmdAlto_Click",
+          "line_start": 759
+        },
+        {
+          "event": "cmdAmpliar_Click",
+          "line_start": 773
+        },
+        {
+          "event": "cmdReducir_Click",
+          "line_start": 851
+        },
+        {
+          "event": "cmdAncho_Click",
+          "line_start": 892
+        },
+        {
+          "event": "btn_rotar_Click",
+          "line_start": 906
+        },
+        {
+          "event": "btnAnverso_click",
+          "line_start": 927
+        },
+        {
+          "event": "btnReverso_Click",
+          "line_start": 931
+        }
+      ],
+      "has_direct_sql": true,
+      "navigates_to": [],
+      "language": "vb6"
+    },
+    {
+      "surface_id": "ui-ext_histo_InText_ctl",
+      "screen_id": "InText",
+      "title": "F9",
+      "surface_type": "user_control",
+      "source_file": "ext_histo/InText.ctl",
+      "labels": [
+        "2",
+        "Etiqueta"
+      ],
+      "fields": [],
+      "buttons": [],
+      "events": [
+        {
+          "event": "Text1_GotFocus",
+          "line_start": 207
+        },
+        {
+          "event": "Text1_KeyDown",
+          "line_start": 229
+        },
+        {
+          "event": "Text1_KeyPress",
+          "line_start": 261
+        },
+        {
+          "event": "Text1_LostFocus",
+          "line_start": 415
+        },
+        {
+          "event": "UserControl_Resize",
+          "line_start": 542
+        },
+        {
+          "event": "Text1_Change",
+          "line_start": 969
+        },
+        {
+          "event": "Command1_Click",
+          "line_start": 1002
+        }
+      ],
+      "has_direct_sql": true,
+      "navigates_to": [],
+      "language": "vb6"
+    },
+    {
+      "surface_id": "ui-ext_histo_frm_InCbkfrm_AcercaDe_frm",
+      "screen_id": "InCbkfrm_AcercaDe",
+      "title": "Acerca de ...",
+      "surface_type": "form",
+      "source_file": "ext_histo/frm/InCbkfrm_AcercaDe.frm",
+      "labels": [
+        "Aceptar",
+        "version",
+        "app.title",
+        "Si no es posible la actualización avise a Sistemas",
+        "Versión",
+        "Existe una versión más reciente de la aplicación",
+        "Si no es posible la actualización avise a Sistemas",
+        "Reinicie el usuario de Windows"
+      ],
+      "fields": [],
+      "buttons": [
+        "btn_ok"
+      ],
+      "events": [
+        {
+          "event": "cmdSistema_Click",
+          "line_start": 301
+        },
+        {
+          "event": "btn_ok_Click",
+          "line_start": 365
+        },
+        {
+          "event": "Form_Load",
+          "line_start": 372
+        },
+        {
+          "event": "Form_Unload",
+          "line_start": 626
+        }
+      ],
+      "has_direct_sql": true,
+      "navigates_to": [],
+      "language": "vb6"
+    },
+    {
+      "surface_id": "ui-ext_histo_frm_InCbkfrm_Login_frm",
+      "screen_id": "InCbkfrm_Login",
+      "title": "Control de acceso",
+      "surface_type": "form",
+      "source_file": "ext_histo/frm/InCbkfrm_Login.frm",
+      "labels": [
+        "Salir",
+        "Aceptar",
+        "Pendiente de Conexión",
+        "Usuario",
+        "Clave",
+        "Salir",
+        "Aceptar",
+        "Confirme la nueva clave",
+        "Introduzca la nueva clave",
+        "Versión",
+        "Nombre Aplicación"
+      ],
+      "fields": [],
+      "buttons": [
+        "btnSalir",
+        "btnConectar",
+        "btnCancelar",
+        "btnAceptar"
+      ],
+      "events": [
+        {
+          "event": "btnAceptar_Click",
+          "line_start": 472
+        },
+        {
+          "event": "btnCancelar_Click",
+          "line_start": 506
+        },
+        {
+          "event": "btnConectar_Click",
+          "line_start": 512
+        },
+        {
+          "event": "btnSalir_Click",
+          "line_start": 559
+        },
+        {
+          "event": "ent_clave1_GotFocus",
+          "line_start": 565
+        },
+        {
+          "event": "ent_clave1_KeyPress",
+          "line_start": 570
+        },
+        {
+          "event": "ent_clave2_GotFocus",
+          "line_start": 582
+        },
+        {
+          "event": "ent_clave2_KeyPress",
+          "line_start": 588
+        },
+        {
+          "event": "Form_Activate",
+          "line_start": 600
+        },
+        {
+          "event": "ent_user_gotfocus",
+          "line_start": 613
+        },
+        {
+          "event": "ent_clave_gotfocus",
+          "line_start": 619
+        },
+        {
+          "event": "ent_digit_gotfocus",
+          "line_start": 626
+        },
+        {
+          "event": "ent_user_KeyPress",
+          "line_start": 634
+        },
+        {
+          "event": "ent_clave_KeyPress",
+          "line_start": 647
+        },
+        {
+          "event": "ent_digit_KeyPress",
+          "line_start": 661
+        },
+        {
+          "event": "Form_Load",
+          "line_start": 674
+        },
+        {
+          "event": "Form_Unload",
+          "line_start": 711
+        }
+      ],
+      "has_direct_sql": false,
+      "navigates_to": [
+        "frmClave",
+        "frmLogin"
+      ],
+      "language": "vb6"
+    },
+    {
+      "surface_id": "ui-ext_histo_frmConsulta_frm",
+      "screen_id": "frmConsulta",
+      "title": "Consulta Histórico Extranjero",
+      "surface_type": "form",
+      "source_file": "ext_histo/frmConsulta.frm",
+      "labels": [
+        "F12 - Imprimir Infome",
+        " Documentos Seleccionados",
+        "Endoso:",
+        "Fecha Proceso:",
+        "Oficina:",
+        "Número:",
+        "Importe:",
+        "Fecha:",
+        "Divisa:",
+        "Cuenta",
+        " Datos Remesa Origen",
+        "Importe:",
+        "Tipo Documento:",
+        "Situación:",
+        "Nº endoso:"
+      ],
+      "fields": [
+        "txtEndoso",
+        "txtFechaProceso",
+        "txtROOficina",
+        "txtRONumero",
+        "txtROImporte",
+        "txtROFecha",
+        "txtRODivisa",
+        "txtROCuenta",
+        "txtDOImporte",
+        "txtDOTipoDoc",
+        "txtDOSituacion",
+        "txtDONumEndoso",
+        "txtDOPais",
+        "txtDONumero",
+        "txtDOCodeline",
+        "txtDOCuenta",
+        "txtDOEntidad",
+        "txtDOCiudad",
+        "txtDOPlaza",
+        "txtDOImprocedente",
+        "txtEFEnvio",
+        "txtEFFactura",
+        "txtEFCuenta",
+        "txtEFImporteEnv",
+        "txtEFTotalFac",
+        "txtRDOficinaDest",
+        "txtRDNumRemDest",
+        "txtRDImporteDev",
+        "txtRDFecDev",
+        "txtRDFecDest",
+        "txtRDImporteGas",
+        "txtRDMotivo",
+        "txtRDMotivoDesc"
+      ],
+      "buttons": [
+        "cmdImprimir",
+        "cmdBuscar",
+        "cmdLimpiar",
+        "cmdSalir"
+      ],
+      "events": [
+        {
+          "event": "cmdBuscar_Click",
+          "line_start": 1540
+        },
+        {
+          "event": "cmdImprimir_Click",
+          "line_start": 1544
+        },
+        {
+          "event": "cmdLimpiar_Click",
+          "line_start": 1577
+        },
+        {
+          "event": "cmdSalir_Click",
+          "line_start": 1581
+        },
+        {
+          "event": "Form_KeyDown",
+          "line_start": 1588
+        },
+        {
+          "event": "Form_Load",
+          "line_start": 1618
+        },
+        {
+          "event": "Form_Unload",
+          "line_start": 1630
+        },
+        {
+          "event": "listDocs_DblClick",
+          "line_start": 1996
+        },
+        {
+          "event": "listDocs_KeyDown",
+          "line_start": 2125
+        }
+      ],
+      "has_direct_sql": true,
+      "navigates_to": [
+        "frmPrincipal"
+      ],
+      "language": "vb6"
+    },
+    {
+      "surface_id": "ui-ext_histo_frmDif_Remesas_frm",
+      "screen_id": "frmDif_Remesas",
+      "title": "Diferencias ingreso Remesa",
+      "surface_type": "form",
+      "source_file": "ext_histo/frmDif_Remesas.frm",
+      "labels": [
+        "Fecha Proceso",
+        "Oficina",
+        "Remesa",
+        "Aceptar",
+        "Cancelar",
+        "Diferencias ingreso Remesa"
+      ],
+      "fields": [
+        "TxtFecpro",
+        "TxtOficina",
+        "TxtRemesa"
+      ],
+      "buttons": [
+        "btn_ok",
+        "btn_Cancelar"
+      ],
+      "events": [
+        {
+          "event": "btn_cancelar_Click",
+          "line_start": 240
+        },
+        {
+          "event": "btn_ok_Click",
+          "line_start": 244
+        },
+        {
+          "event": "TxtFecpro_LostFocus",
+          "line_start": 567
+        }
+      ],
+      "has_direct_sql": true,
+      "navigates_to": [
+        "frmDatos"
+      ],
+      "language": "vb6"
+    },
+    {
+      "surface_id": "ui-ext_histo_frmPrincipal_frm",
+      "screen_id": "frmPrincipal",
+      "title": "Histórico Extranjero",
+      "surface_type": "form",
+      "source_file": "ext_histo/frmPrincipal.frm",
+      "labels": [
+        "Traspasar Histórico",
+        "Consulta Histórico",
+        "Tipo Impresión",
+        "Paises (Histórico)",
+        "País / Divisa",
+        "Aplic. a Correspons.",
+        "Diferencia Ingreso Remesa",
+        "Acerca de",
+        "Salir",
+        "Tipo Impresión",
+        "Impresión por Pantalla",
+        "Impresión en Papel"
+      ],
+      "fields": [],
+      "buttons": [],
+      "events": [
+        {
+          "event": "MDIForm_Load",
+          "line_start": 267
+        },
+        {
+          "event": "MDIForm_Resize",
+          "line_start": 281
+        },
+        {
+          "event": "MDIForm_Unload",
+          "line_start": 286
+        },
+        {
+          "event": "mnImpresionPantalla_Click",
+          "line_start": 294
+        },
+        {
+          "event": "mnImpresionPapel_Click",
+          "line_start": 301
+        }
+      ],
+      "has_direct_sql": true,
+      "navigates_to": [
+        "frmConsulta",
+        "frmDif_Remesas",
+        "frmProgress"
+      ],
+      "language": "vb6"
+    },
+    {
+      "surface_id": "ui-ext_histo_frmProgress_frm",
+      "screen_id": "frmProgress",
+      "title": "Traspaso Histórico Extranjero",
+      "surface_type": "form",
+      "source_file": "ext_histo/frmProgress.frm",
+      "labels": [
+        "Traspaso Histórico Extranjero"
+      ],
+      "fields": [],
+      "buttons": [],
+      "events": [],
+      "has_direct_sql": false,
+      "navigates_to": [],
+      "language": "vb6"
+    },
+    {
+      "surface_id": "ui-ext_histo_frmReport_frm",
+      "screen_id": "frmReport",
+      "title": "frmReport",
+      "surface_type": "form",
+      "source_file": "ext_histo/frmReport.frm",
+      "labels": [],
+      "fields": [],
+      "buttons": [],
+      "events": [
+        {
+          "event": "Form_Resize",
+          "line_start": 55
+        }
+      ],
+      "has_direct_sql": false,
+      "navigates_to": [],
+      "language": "vb6"
+    },
+    {
+      "surface_id": "ui-ext_histo_frm_Entre_Fechas_frm",
+      "screen_id": "frm_Entre_Fechas",
+      "title": "Rango de Fechas",
+      "surface_type": "form",
+      "source_file": "ext_histo/frm_Entre_Fechas.frm",
+      "labels": [
+        "Desde:",
+        "Hasta:",
+        "Aceptar",
+        "Cancelar",
+        " Rango de Fechas"
+      ],
+      "fields": [
+        "TxtDesde",
+        "TxtHasta"
+      ],
+      "buttons": [
+        "btn_ok",
+        "btn_Cancelar"
+      ],
+      "events": [
+        {
+          "event": "btn_cancelar_Click",
+          "line_start": 218
+        },
+        {
+          "event": "btn_ok_Click",
+          "line_start": 224
+        }
+      ],
+      "has_direct_sql": false,
+      "navigates_to": [
+        "frmDatos"
+      ],
+      "language": "vb6"
+    }
+  ]
+}

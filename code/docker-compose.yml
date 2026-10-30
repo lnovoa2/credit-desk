@@ -1,0 +1,11 @@
+services:
+  legacy-credit-desk:
+    build: .
+    ports:
+      - "8080:8080"
+    volumes:
+      - legacy-credit-data:/app/App_Data
+    restart: unless-stopped
+
+volumes:
+  legacy-credit-data:

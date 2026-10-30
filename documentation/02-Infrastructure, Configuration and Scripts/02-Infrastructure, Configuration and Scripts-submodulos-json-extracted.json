@@ -1,0 +1,46 @@
+{
+  "metadata": {
+    "fecha_analisis": "2026-08-10",
+    "total_modulos": 6,
+    "version": "1.0",
+    "cobertura": "100%"
+  },
+  "submodules": [
+    {
+      "id": "mod_01",
+      "title": "ASP.NET Runtime Configuration",
+      "codigo": "ASPNET_CONFIG",
+      "iterado": "1"
+    },
+    {
+      "id": "mod_02",
+      "title": "Container Build and Deployment",
+      "codigo": "CONTAINER_DEPLOY",
+      "iterado": "1"
+    },
+    {
+      "id": "mod_03",
+      "title": "Local Development Startup Script",
+      "codigo": "LOCAL_STARTUP",
+      "iterado": "1"
+    },
+    {
+      "id": "mod_04",
+      "title": "Data Reset and Environment Rebuild Script",
+      "codigo": "DATA_RESET",
+      "iterado": "1"
+    },
+    {
+      "id": "mod_05",
+      "title": "Smoke Test and Automated Verification Script",
+      "codigo": "SMOKE_TEST",
+      "iterado": "1"
+    },
+    {
+      "id": "mod_06",
+      "title": "Project Documentation and Business Knowledge",
+      "codigo": "PROJECT_DOCS",
+      "iterado": "1"
+    }
+  ]
+}

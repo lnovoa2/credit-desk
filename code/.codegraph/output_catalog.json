@@ -1,0 +1,38 @@
+{
+  "generated_at": "2026-06-12T12:56:13.077193+00:00",
+  "source": "vb6_direct",
+  "items": [
+    {
+      "output_id": "out-0001",
+      "output_type": "crystal_report",
+      "name": "CR_Anverso_Reverso",
+      "source_file": "ext_histo/frmConsulta.frm",
+      "line_start": 1552,
+      "migration_note": "Replace with JasperReports or streaming PDF endpoint."
+    },
+    {
+      "output_id": "out-0002",
+      "output_type": "crystal_report",
+      "name": "CR_Paises_Historico",
+      "source_file": "ext_histo/modEstadisticasExtranjero.bas",
+      "line_start": 47,
+      "migration_note": "Replace with JasperReports or streaming PDF endpoint."
+    },
+    {
+      "output_id": "out-0003",
+      "output_type": "crystal_report",
+      "name": "CR_Paises_Divisas",
+      "source_file": "ext_histo/modEstadisticasExtranjero.bas",
+      "line_start": 330,
+      "migration_note": "Replace with JasperReports or streaming PDF endpoint."
+    },
+    {
+      "output_id": "out-0004",
+      "output_type": "crystal_report",
+      "name": "CR_Estadis_Corresponsales",
+      "source_file": "ext_histo/modEstadisticasExtranjero.bas",
+      "line_start": 639,
+      "migration_note": "Replace with JasperReports or streaming PDF endpoint."
+    }
+  ]
+}

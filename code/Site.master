@@ -1,0 +1,15 @@
+<%@ Master Language="C#" %>
+<!DOCTYPE html>
+<html>
+<head runat="server">
+    <title>Legacy Credit Desk</title>
+    <link rel="stylesheet" type="text/css" href="Content/site.css" />
+</head>
+<body>
+<form id="form1" runat="server">
+<div class="top"><h1>Legacy Credit Desk 2.7</h1><div>Wholesale credit authorization console</div></div>
+<div class="nav"><a href="Default.aspx">Dashboard</a><a href="Customers.aspx">Customers</a><a href="OrderEntry.aspx">New Order</a><a href="Batch.aspx">Night Batch</a></div>
+<div class="wrap"><asp:ContentPlaceHolder ID="MainContent" runat="server" /></div>
+</form>
+</body>
+</html>

@@ -1,0 +1,40 @@
+{
+  "metadata": {
+    "fecha_analisis": "2026-08-10",
+    "total_modulos": 5,
+    "version": "1.0",
+    "cobertura": "100%"
+  },
+  "submodules": [
+    {
+      "id": "mod_01",
+      "title": "Credit Decision Result Model",
+      "codigo": "DECISION_MODEL",
+      "iterado": "1"
+    },
+    {
+      "id": "mod_02",
+      "title": "Risk Score Computation",
+      "codigo": "RISK_SCORE",
+      "iterado": "1"
+    },
+    {
+      "id": "mod_03",
+      "title": "Decision Rule Pipeline",
+      "codigo": "DECISION_RULES",
+      "iterado": "1"
+    },
+    {
+      "id": "mod_04",
+      "title": "Configuration Parameter Resolver",
+      "codigo": "CONFIG_RESOLVER",
+      "iterado": "1"
+    },
+    {
+      "id": "mod_05",
+      "title": "Order Entry Invoice Minimum Validation",
+      "codigo": "INVOICE_MIN_VALIDATION",
+      "iterado": "1"
+    }
+  ]
+}

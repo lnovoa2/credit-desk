@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "fecha_analisis": "2026-08-10",
+    "total_modulos": 4,
+    "version": "1.0",
+    "cobertura": "100%"
+  },
+  "submodules": [
+    {
+      "id": "mod_01",
+      "title": "Batch Engine - Timer and Concurrency Control",
+      "codigo": "BATCH_ENGINE",
+      "iterado": "1"
+    },
+    {
+      "id": "mod_02",
+      "title": "Risk Score Recalculation and Auto-Block Logic",
+      "codigo": "BATCH_RISK_RECALC",
+      "iterado": "1"
+    },
+    {
+      "id": "mod_03",
+      "title": "Batch Audit and State Update",
+      "codigo": "BATCH_AUDIT_STATE",
+      "iterado": "1"
+    },
+    {
+      "id": "mod_04",
+      "title": "Batch Monitoring and Manual Trigger UI",
+      "codigo": "BATCH_UI",
+      "iterado": "1"
+    }
+  ]
+}

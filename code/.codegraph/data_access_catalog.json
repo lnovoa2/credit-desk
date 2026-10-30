@@ -1,0 +1,1712 @@
+{
+  "generated_at": "2026-06-12T12:56:13.076570+00:00",
+  "source": "vb6_direct",
+  "items": [
+    {
+      "item_id": "da-0001",
+      "source_file": "ext_histo/InCbk/bas/InCbkConexion_oracle.bas",
+      "procedure": "Existe_Usuario_Migracion",
+      "line_start": 188,
+      "statement_preview": "Select * From ",
+      "tables": [],
+      "statement_kinds": [
+        "FROM",
+        "SELECT"
+      ],
+      "confidence": "NEEDS_REVIEW",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0002",
+      "source_file": "ext_histo/InCbk/bas/InCbkConexion_oracle.bas",
+      "procedure": "valida_usuario",
+      "line_start": 212,
+      "statement_preview": "select * from ",
+      "tables": [],
+      "statement_kinds": [
+        "FROM",
+        "SELECT"
+      ],
+      "confidence": "NEEDS_REVIEW",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0003",
+      "source_file": "ext_histo/InCbk/bas/InCbkConexion_oracle.bas",
+      "procedure": "valida_usuario",
+      "line_start": 216,
+      "statement_preview": "Select * From ",
+      "tables": [],
+      "statement_kinds": [
+        "FROM",
+        "SELECT"
+      ],
+      "confidence": "NEEDS_REVIEW",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0004",
+      "source_file": "ext_histo/InCbk/bas/InCbkConexion_oracle.bas",
+      "procedure": "valida_usuario",
+      "line_start": 304,
+      "statement_preview": "Update ",
+      "tables": [],
+      "statement_kinds": [
+        "UPDATE"
+      ],
+      "confidence": "NEEDS_REVIEW",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0005",
+      "source_file": "ext_histo/InCbk/bas/InCbkConexion_oracle.bas",
+      "procedure": "valida_usuario",
+      "line_start": 313,
+      "statement_preview": "Update ",
+      "tables": [],
+      "statement_kinds": [
+        "UPDATE"
+      ],
+      "confidence": "NEEDS_REVIEW",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0006",
+      "source_file": "ext_histo/InCbk/bas/InCbkConexion_oracle.bas",
+      "procedure": "valida_usuario",
+      "line_start": 329,
+      "statement_preview": "Update ",
+      "tables": [],
+      "statement_kinds": [
+        "UPDATE"
+      ],
+      "confidence": "NEEDS_REVIEW",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0007",
+      "source_file": "ext_histo/InCbk/bas/InCbkConexion_oracle.bas",
+      "procedure": "valida_usuario",
+      "line_start": 343,
+      "statement_preview": "Update ",
+      "tables": [],
+      "statement_kinds": [
+        "UPDATE"
+      ],
+      "confidence": "NEEDS_REVIEW",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0008",
+      "source_file": "ext_histo/InCbk/bas/InCbkConexion_oracle.bas",
+      "procedure": "getCentroUsuario",
+      "line_start": 401,
+      "statement_preview": "Select * From ",
+      "tables": [],
+      "statement_kinds": [
+        "FROM",
+        "SELECT"
+      ],
+      "confidence": "NEEDS_REVIEW",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0009",
+      "source_file": "ext_histo/InCbk/bas/InCbkConexion_oracle.bas",
+      "procedure": "update_password",
+      "line_start": 489,
+      "statement_preview": "Update - Error  ",
+      "tables": [],
+      "statement_kinds": [
+        "UPDATE"
+      ],
+      "confidence": "NEEDS_REVIEW",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0010",
+      "source_file": "ext_histo/InCbk/bas/InCbkConexion_oracle.bas",
+      "procedure": "GetNowOracle",
+      "line_start": 565,
+      "statement_preview": "Select SYSDATE From DUAL",
+      "tables": [],
+      "statement_kinds": [
+        "FROM",
+        "SELECT"
+      ],
+      "confidence": "NEEDS_REVIEW",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0011",
+      "source_file": "ext_histo/InCbk/bas/InCbkConexion_oracle.bas",
+      "procedure": "GetDateOracle",
+      "line_start": 589,
+      "statement_preview": "Select SYSDATE From DUAL",
+      "tables": [],
+      "statement_kinds": [
+        "FROM",
+        "SELECT"
+      ],
+      "confidence": "NEEDS_REVIEW",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0012",
+      "source_file": "ext_histo/InCbk/bas/InCbkConexion_oracle.bas",
+      "procedure": "getFechaORACLE",
+      "line_start": 612,
+      "statement_preview": " SELECT SYSDATE FROM DUAL ",
+      "tables": [],
+      "statement_kinds": [
+        "FROM",
+        "SELECT"
+      ],
+      "confidence": "NEEDS_REVIEW",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0013",
+      "source_file": "ext_histo/InCbk/bas/InCbkConexion_oracle.bas",
+      "procedure": "getCentroDescripcion",
+      "line_start": 729,
+      "statement_preview": "Select * From GAP_CONFIGURACIONES ",
+      "tables": [
+        "GAP_CONFIGURACIONES"
+      ],
+      "statement_kinds": [
+        "FROM",
+        "SELECT"
+      ],
+      "confidence": "CONFIRMED",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0014",
+      "source_file": "ext_histo/InCbk/bas/InCbkConexion_oracle.bas",
+      "procedure": "GetConfig_Correo",
+      "line_start": 775,
+      "statement_preview": "SELECT PV_CENTRO FROM ",
+      "tables": [],
+      "statement_kinds": [
+        "FROM",
+        "SELECT"
+      ],
+      "confidence": "NEEDS_REVIEW",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0015",
+      "source_file": "ext_histo/InCbk/bas/InCbkConexion_oracle.bas",
+      "procedure": "GetConfig_Correo",
+      "line_start": 782,
+      "statement_preview": "SELECT * FROM ",
+      "tables": [],
+      "statement_kinds": [
+        "FROM",
+        "SELECT"
+      ],
+      "confidence": "NEEDS_REVIEW",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0016",
+      "source_file": "ext_histo/InCbk/bas/InCbkConexion_oracle.bas",
+      "procedure": "GetConfig_Correo",
+      "line_start": 804,
+      "statement_preview": "SELECT * FROM ",
+      "tables": [],
+      "statement_kinds": [
+        "FROM",
+        "SELECT"
+      ],
+      "confidence": "NEEDS_REVIEW",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0017",
+      "source_file": "ext_histo/InCbk/bas/InCbkConexion_oracle.bas",
+      "procedure": "GetConfig_Correo",
+      "line_start": 827,
+      "statement_preview": "SELECT * FROM ",
+      "tables": [],
+      "statement_kinds": [
+        "FROM",
+        "SELECT"
+      ],
+      "confidence": "NEEDS_REVIEW",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0018",
+      "source_file": "ext_histo/InCbk/bas/InCbkmod_Funciones.bas",
+      "procedure": "BajaRegistroLogin",
+      "line_start": 543,
+      "statement_preview": " SELECT * FROM GAP_LOGIN_CONTROL WHERE LC_CODIGO = 0",
+      "tables": [
+        "GAP_LOGIN_CONTROL"
+      ],
+      "statement_kinds": [
+        "FROM",
+        "SELECT"
+      ],
+      "confidence": "CONFIRMED",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0019",
+      "source_file": "ext_histo/InCbk/bas/InCbkmod_Funciones.bas",
+      "procedure": "LoginEncriptado",
+      "line_start": 579,
+      "statement_preview": " Select PAR_INICIAR_ENCRIPTACION From LOGIN_PARAMETROS",
+      "tables": [
+        "LOGIN_PARAMETROS"
+      ],
+      "statement_kinds": [
+        "FROM",
+        "SELECT"
+      ],
+      "confidence": "CONFIRMED",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0020",
+      "source_file": "ext_histo/InCbk/bas/InCbkmod_Funciones.bas",
+      "procedure": "CerrarRegistroLogin",
+      "line_start": 614,
+      "statement_preview": " Update GAP_LOGIN_CONTROL set LC_FECHASALIDA = sysdate ",
+      "tables": [
+        "GAP_LOGIN_CONTROL"
+      ],
+      "statement_kinds": [
+        "UPDATE"
+      ],
+      "confidence": "CONFIRMED",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0021",
+      "source_file": "ext_histo/InCbk/bas/InCbkmod_Funciones.bas",
+      "procedure": "ExisteRegistroLogin",
+      "line_start": 648,
+      "statement_preview": " SELECT * FROM GAP_LOGIN_CONTROL ",
+      "tables": [
+        "GAP_LOGIN_CONTROL"
+      ],
+      "statement_kinds": [
+        "FROM",
+        "SELECT"
+      ],
+      "confidence": "CONFIRMED",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0022",
+      "source_file": "ext_histo/InCbk/bas/InCbkmod_Funciones.bas",
+      "procedure": "AltaRegistroLogin",
+      "line_start": 699,
+      "statement_preview": " SELECT * FROM GAP_LOGIN_CONTROL WHERE LC_CODIGO = -666 ",
+      "tables": [
+        "GAP_LOGIN_CONTROL"
+      ],
+      "statement_kinds": [
+        "FROM",
+        "SELECT"
+      ],
+      "confidence": "CONFIRMED",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0023",
+      "source_file": "ext_histo/InCbk/bas/InCbkmod_Funciones.bas",
+      "procedure": "AltaRegistroLogin",
+      "line_start": 723,
+      "statement_preview": "SELECT SEQ_GAP_LOGIN_CONTROL_CODIGO.CURRVAL LC_CODIGO FROM DUAL",
+      "tables": [],
+      "statement_kinds": [
+        "FROM",
+        "SELECT"
+      ],
+      "confidence": "NEEDS_REVIEW",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0024",
+      "source_file": "ext_histo/InCbk/bas/InCbkmod_Funciones.bas",
+      "procedure": "getUsuarioLogeo",
+      "line_start": 861,
+      "statement_preview": " SELECT LC_USUARIO ",
+      "tables": [],
+      "statement_kinds": [
+        "SELECT"
+      ],
+      "confidence": "NEEDS_REVIEW",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0025",
+      "source_file": "ext_histo/InCbk/bas/InCbkmod_Funciones.bas",
+      "procedure": "getUsuarioLogeo",
+      "line_start": 862,
+      "statement_preview": " FROM GAP_LOGIN_CONTROL ",
+      "tables": [
+        "GAP_LOGIN_CONTROL"
+      ],
+      "statement_kinds": [
+        "FROM"
+      ],
+      "confidence": "CONFIRMED",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0026",
+      "source_file": "ext_histo/InCbk/bas/InCbkmod_Funciones.bas",
+      "procedure": "getClave",
+      "line_start": 897,
+      "statement_preview": " SELECT * ",
+      "tables": [],
+      "statement_kinds": [
+        "SELECT"
+      ],
+      "confidence": "NEEDS_REVIEW",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0027",
+      "source_file": "ext_histo/InCbk/bas/InCbkmod_Funciones.bas",
+      "procedure": "getClave",
+      "line_start": 898,
+      "statement_preview": " FROM GAP_CONFIGURACIONES ",
+      "tables": [
+        "GAP_CONFIGURACIONES"
+      ],
+      "statement_kinds": [
+        "FROM"
+      ],
+      "confidence": "CONFIRMED",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0028",
+      "source_file": "ext_histo/InCbk/bas/InCbkmod_Funciones.bas",
+      "procedure": "getClave",
+      "line_start": 922,
+      "statement_preview": " SELECT * ",
+      "tables": [],
+      "statement_kinds": [
+        "SELECT"
+      ],
+      "confidence": "NEEDS_REVIEW",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0029",
+      "source_file": "ext_histo/InCbk/bas/InCbkmod_Funciones.bas",
+      "procedure": "getClave",
+      "line_start": 923,
+      "statement_preview": " FROM GAP_CONFIGURACIONES ",
+      "tables": [
+        "GAP_CONFIGURACIONES"
+      ],
+      "statement_kinds": [
+        "FROM"
+      ],
+      "confidence": "CONFIRMED",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0030",
+      "source_file": "ext_histo/InCbk/bas/InCbkmod_Funciones.bas",
+      "procedure": "getClave",
+      "line_start": 944,
+      "statement_preview": " SELECT * ",
+      "tables": [],
+      "statement_kinds": [
+        "SELECT"
+      ],
+      "confidence": "NEEDS_REVIEW",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0031",
+      "source_file": "ext_histo/InCbk/bas/InCbkmod_Funciones.bas",
+      "procedure": "getClave",
+      "line_start": 945,
+      "statement_preview": " FROM GAP_CONFIGURACIONES ",
+      "tables": [
+        "GAP_CONFIGURACIONES"
+      ],
+      "statement_kinds": [
+        "FROM"
+      ],
+      "confidence": "CONFIRMED",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0032",
+      "source_file": "ext_histo/InCbk/bas/InCbkmod_Funciones.bas",
+      "procedure": "getClave",
+      "line_start": 967,
+      "statement_preview": " SELECT * ",
+      "tables": [],
+      "statement_kinds": [
+        "SELECT"
+      ],
+      "confidence": "NEEDS_REVIEW",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0033",
+      "source_file": "ext_histo/InCbk/bas/InCbkmod_Funciones.bas",
+      "procedure": "getClave",
+      "line_start": 968,
+      "statement_preview": " FROM GAP_CONFIGURACIONES ",
+      "tables": [
+        "GAP_CONFIGURACIONES"
+      ],
+      "statement_kinds": [
+        "FROM"
+      ],
+      "confidence": "CONFIRMED",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0034",
+      "source_file": "ext_histo/InCbk/bas/InCbkmod_Funciones.bas",
+      "procedure": "getClave",
+      "line_start": 990,
+      "statement_preview": " SELECT * ",
+      "tables": [],
+      "statement_kinds": [
+        "SELECT"
+      ],
+      "confidence": "NEEDS_REVIEW",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0035",
+      "source_file": "ext_histo/InCbk/bas/InCbkmod_Funciones.bas",
+      "procedure": "getClave",
+      "line_start": 991,
+      "statement_preview": " FROM GAP_CONFIGURACIONES ",
+      "tables": [
+        "GAP_CONFIGURACIONES"
+      ],
+      "statement_kinds": [
+        "FROM"
+      ],
+      "confidence": "CONFIRMED",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0036",
+      "source_file": "ext_histo/InCbk/bas/InCbkmod_Funciones.bas",
+      "procedure": "EstablecerVariables",
+      "line_start": 1033,
+      "statement_preview": " SELECT LC_CODIGO, LC_USUARIO, LC_DIGITO ",
+      "tables": [],
+      "statement_kinds": [
+        "SELECT"
+      ],
+      "confidence": "NEEDS_REVIEW",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0037",
+      "source_file": "ext_histo/InCbk/bas/InCbkmod_Funciones.bas",
+      "procedure": "EstablecerVariables",
+      "line_start": 1034,
+      "statement_preview": " FROM GAP_LOGIN_CONTROL ",
+      "tables": [
+        "GAP_LOGIN_CONTROL"
+      ],
+      "statement_kinds": [
+        "FROM"
+      ],
+      "confidence": "CONFIRMED",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0038",
+      "source_file": "ext_histo/InCbk/bas/InCbkmod_Funciones.bas",
+      "procedure": "EscribirTraza",
+      "line_start": 1086,
+      "statement_preview": " SELECT * FROM GAP_LOGS_CONTROL WHERE LO_CODIGO = -666 ",
+      "tables": [
+        "GAP_LOGS_CONTROL"
+      ],
+      "statement_kinds": [
+        "FROM",
+        "SELECT"
+      ],
+      "confidence": "CONFIRMED",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0039",
+      "source_file": "ext_histo/Registro.cls",
+      "procedure": "LoadCampos",
+      "line_start": 210,
+      "statement_preview": "SELECT",
+      "tables": [],
+      "statement_kinds": [
+        "SELECT"
+      ],
+      "confidence": "NEEDS_REVIEW",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0040",
+      "source_file": "ext_histo/Registro.cls",
+      "procedure": "LoadCampos",
+      "line_start": 210,
+      "statement_preview": "SELECT rowid,",
+      "tables": [],
+      "statement_kinds": [
+        "SELECT"
+      ],
+      "confidence": "NEEDS_REVIEW",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0041",
+      "source_file": "ext_histo/Registro.cls",
+      "procedure": "MaximoId",
+      "line_start": 339,
+      "statement_preview": "Select unique ",
+      "tables": [],
+      "statement_kinds": [
+        "SELECT"
+      ],
+      "confidence": "NEEDS_REVIEW",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0042",
+      "source_file": "ext_histo/Registro.cls",
+      "procedure": "MaximoId",
+      "line_start": 339,
+      "statement_preview": " From ",
+      "tables": [],
+      "statement_kinds": [
+        "FROM"
+      ],
+      "confidence": "NEEDS_REVIEW",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0043",
+      "source_file": "ext_histo/bas/mod_Citrix.bas",
+      "procedure": "ObtieneDatoINI_BBDD",
+      "line_start": 50,
+      "statement_preview": "select * from ",
+      "tables": [],
+      "statement_kinds": [
+        "FROM",
+        "SELECT"
+      ],
+      "confidence": "NEEDS_REVIEW",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0044",
+      "source_file": "ext_histo/bas/mod_Citrix.bas",
+      "procedure": "ObtieneDatoINI_BBDD",
+      "line_start": 67,
+      "statement_preview": "select * from ",
+      "tables": [],
+      "statement_kinds": [
+        "FROM",
+        "SELECT"
+      ],
+      "confidence": "NEEDS_REVIEW",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0045",
+      "source_file": "ext_histo/bas/mod_Citrix.bas",
+      "procedure": "ModificaDatoINI_BBDD",
+      "line_start": 108,
+      "statement_preview": "select * from ",
+      "tables": [],
+      "statement_kinds": [
+        "FROM",
+        "SELECT"
+      ],
+      "confidence": "NEEDS_REVIEW",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0046",
+      "source_file": "ext_histo/bas/mod_Citrix.bas",
+      "procedure": "ModificaDatoINI_BBDD",
+      "line_start": 117,
+      "statement_preview": "update ",
+      "tables": [],
+      "statement_kinds": [
+        "UPDATE"
+      ],
+      "confidence": "NEEDS_REVIEW",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0047",
+      "source_file": "ext_histo/bas/mod_Citrix.bas",
+      "procedure": "ModificaDatoINI_BBDD",
+      "line_start": 126,
+      "statement_preview": "update ",
+      "tables": [],
+      "statement_kinds": [
+        "UPDATE"
+      ],
+      "confidence": "NEEDS_REVIEW",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0048",
+      "source_file": "ext_histo/bas/mod_Citrix.bas",
+      "procedure": "GetDatos_AplicMails",
+      "line_start": 161,
+      "statement_preview": "select * from ",
+      "tables": [],
+      "statement_kinds": [
+        "FROM",
+        "SELECT"
+      ],
+      "confidence": "NEEDS_REVIEW",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0049",
+      "source_file": "ext_histo/frm/InCbkfrm_AcercaDe.frm",
+      "procedure": "ValidarVersion",
+      "line_start": 465,
+      "statement_preview": "Select * From gap_aplicaciones ",
+      "tables": [
+        "GAP_APLICACIONES"
+      ],
+      "statement_kinds": [
+        "FROM",
+        "SELECT"
+      ],
+      "confidence": "CONFIRMED",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0050",
+      "source_file": "ext_histo/frm/InCbkfrm_AcercaDe.frm",
+      "procedure": "ValidarVersion",
+      "line_start": 536,
+      "statement_preview": "Select * From app_versiones ",
+      "tables": [
+        "APP_VERSIONES"
+      ],
+      "statement_kinds": [
+        "FROM",
+        "SELECT"
+      ],
+      "confidence": "CONFIRMED",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0051",
+      "source_file": "ext_histo/frmConsulta.frm",
+      "procedure": "BuscarEndoso",
+      "line_start": 1884,
+      "statement_preview": " SELECT NUMERO_ENDOSO, FECHA_PROCESO, N_ENDOSO, OFICINA_ORI, N_REMESA_ORIGEN, DIVISA, ",
+      "tables": [],
+      "statement_kinds": [
+        "SELECT"
+      ],
+      "confidence": "NEEDS_REVIEW",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0052",
+      "source_file": "ext_histo/frmConsulta.frm",
+      "procedure": "BuscarEndoso",
+      "line_start": 1887,
+      "statement_preview": " FROM ",
+      "tables": [],
+      "statement_kinds": [
+        "FROM"
+      ],
+      "confidence": "NEEDS_REVIEW",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0053",
+      "source_file": "ext_histo/frmConsulta.frm",
+      "procedure": "CargarEndoso",
+      "line_start": 2028,
+      "statement_preview": " SELECT * ",
+      "tables": [],
+      "statement_kinds": [
+        "SELECT"
+      ],
+      "confidence": "NEEDS_REVIEW",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0054",
+      "source_file": "ext_histo/frmConsulta.frm",
+      "procedure": "CargarEndoso",
+      "line_start": 2029,
+      "statement_preview": " FROM ",
+      "tables": [],
+      "statement_kinds": [
+        "FROM"
+      ],
+      "confidence": "NEEDS_REVIEW",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0055",
+      "source_file": "ext_histo/frmConsulta.frm",
+      "procedure": "CargarEndoso",
+      "line_start": 2033,
+      "statement_preview": " SELECT FECHA_PROCESO,N_ENDOSO,OFICINA_ORI,N_REMESA_ORIGEN,IMPORTE_REMESA_ORI,FECHA_REMESA,DIVISA,CUENTA_ORI,IMPORTE, ",
+      "tables": [],
+      "statement_kinds": [
+        "SELECT"
+      ],
+      "confidence": "NEEDS_REVIEW",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0056",
+      "source_file": "ext_histo/frmConsulta.frm",
+      "procedure": "CargarEndoso",
+      "line_start": 2037,
+      "statement_preview": " FROM ",
+      "tables": [],
+      "statement_kinds": [
+        "FROM"
+      ],
+      "confidence": "NEEDS_REVIEW",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0057",
+      "source_file": "ext_histo/frmDif_Remesas.frm",
+      "procedure": "CreaExcelDiferenciasIngresos",
+      "line_start": 387,
+      "statement_preview": "select FECHA_PROCESO, oficina_ori as oficina, n_remesa_origen as remesa, ",
+      "tables": [],
+      "statement_kinds": [
+        "SELECT"
+      ],
+      "confidence": "NEEDS_REVIEW",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0058",
+      "source_file": "ext_histo/frmDif_Remesas.frm",
+      "procedure": "CreaExcelDiferenciasIngresos",
+      "line_start": 390,
+      "statement_preview": " From ",
+      "tables": [],
+      "statement_kinds": [
+        "FROM"
+      ],
+      "confidence": "NEEDS_REVIEW",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0059",
+      "source_file": "ext_histo/frmDif_Remesas.frm",
+      "procedure": "CreaExcelDiferenciasIngresos",
+      "line_start": 396,
+      "statement_preview": "select FECHA_PROCESO, oficina_ori as oficina, n_remesa_origen as remesa, ",
+      "tables": [],
+      "statement_kinds": [
+        "SELECT"
+      ],
+      "confidence": "NEEDS_REVIEW",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0060",
+      "source_file": "ext_histo/frmDif_Remesas.frm",
+      "procedure": "CreaExcelDiferenciasIngresos",
+      "line_start": 399,
+      "statement_preview": " From ",
+      "tables": [],
+      "statement_kinds": [
+        "FROM"
+      ],
+      "confidence": "NEEDS_REVIEW",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0061",
+      "source_file": "ext_histo/frmPrincipal.frm",
+      "procedure": "TraspasarHistoExtranjero",
+      "line_start": 437,
+      "statement_preview": " SELECT * FROM ",
+      "tables": [],
+      "statement_kinds": [
+        "FROM",
+        "SELECT"
+      ],
+      "confidence": "NEEDS_REVIEW",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0062",
+      "source_file": "ext_histo/frmPrincipal.frm",
+      "procedure": "TraspasarHistoExtranjero",
+      "line_start": 527,
+      "statement_preview": " INSERT INTO ",
+      "tables": [],
+      "statement_kinds": [
+        "INSERT"
+      ],
+      "confidence": "NEEDS_REVIEW",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0063",
+      "source_file": "ext_histo/frmPrincipal.frm",
+      "procedure": "TraspasarHistoExtranjero",
+      "line_start": 528,
+      "statement_preview": " SELECT * FROM ",
+      "tables": [],
+      "statement_kinds": [
+        "FROM",
+        "SELECT"
+      ],
+      "confidence": "NEEDS_REVIEW",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0064",
+      "source_file": "ext_histo/frmPrincipal.frm",
+      "procedure": "TraspasarHistoExtranjero",
+      "line_start": 533,
+      "statement_preview": " DELETE FROM ",
+      "tables": [],
+      "statement_kinds": [
+        "DELETE",
+        "FROM"
+      ],
+      "confidence": "NEEDS_REVIEW",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0065",
+      "source_file": "ext_histo/frmPrincipal.frm",
+      "procedure": "TraspasarHistoExtranjero",
+      "line_start": 540,
+      "statement_preview": " SELECT * FROM ",
+      "tables": [],
+      "statement_kinds": [
+        "FROM",
+        "SELECT"
+      ],
+      "confidence": "NEEDS_REVIEW",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0066",
+      "source_file": "ext_histo/frmPrincipal.frm",
+      "procedure": "TraspasarHistoExtranjero",
+      "line_start": 545,
+      "statement_preview": " SELECT COUNT(*) MAXENDOSO ",
+      "tables": [],
+      "statement_kinds": [
+        "SELECT"
+      ],
+      "confidence": "NEEDS_REVIEW",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0067",
+      "source_file": "ext_histo/frmPrincipal.frm",
+      "procedure": "TraspasarHistoExtranjero",
+      "line_start": 546,
+      "statement_preview": " FROM   ",
+      "tables": [],
+      "statement_kinds": [
+        "FROM"
+      ],
+      "confidence": "NEEDS_REVIEW",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0068",
+      "source_file": "ext_histo/frmPrincipal.frm",
+      "procedure": "TraspasarHistoExtranjero",
+      "line_start": 573,
+      "statement_preview": " SELECT D.NUMERO_ENDOSO, D.TIPO_DOCUMENTO, D.PAIS, D.DIVISA, D.IMPORTE, D.PLAZA, ",
+      "tables": [],
+      "statement_kinds": [
+        "SELECT"
+      ],
+      "confidence": "NEEDS_REVIEW",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0069",
+      "source_file": "ext_histo/frmPrincipal.frm",
+      "procedure": "TraspasarHistoExtranjero",
+      "line_start": 581,
+      "statement_preview": " FROM   ",
+      "tables": [],
+      "statement_kinds": [
+        "FROM"
+      ],
+      "confidence": "NEEDS_REVIEW",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0070",
+      "source_file": "ext_histo/frmPrincipal.frm",
+      "procedure": "TraspasarHistoExtranjero",
+      "line_start": 651,
+      "statement_preview": "UPDATE ",
+      "tables": [],
+      "statement_kinds": [
+        "UPDATE"
+      ],
+      "confidence": "NEEDS_REVIEW",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0071",
+      "source_file": "ext_histo/frmPrincipal.frm",
+      "procedure": "TraspasarHistoExtranjero",
+      "line_start": 673,
+      "statement_preview": " SELECT * FROM ",
+      "tables": [],
+      "statement_kinds": [
+        "FROM",
+        "SELECT"
+      ],
+      "confidence": "NEEDS_REVIEW",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0072",
+      "source_file": "ext_histo/frmPrincipal.frm",
+      "procedure": "TraspasarHistoExtranjero",
+      "line_start": 680,
+      "statement_preview": " SELECT COUNT(*) MAXENDOSO ",
+      "tables": [],
+      "statement_kinds": [
+        "SELECT"
+      ],
+      "confidence": "NEEDS_REVIEW",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0073",
+      "source_file": "ext_histo/frmPrincipal.frm",
+      "procedure": "TraspasarHistoExtranjero",
+      "line_start": 681,
+      "statement_preview": " FROM   ",
+      "tables": [],
+      "statement_kinds": [
+        "FROM"
+      ],
+      "confidence": "NEEDS_REVIEW",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0074",
+      "source_file": "ext_histo/frmPrincipal.frm",
+      "procedure": "TraspasarHistoExtranjero",
+      "line_start": 704,
+      "statement_preview": " SELECT D.NUMERO_ENDOSO, D.TIPO_DOCUMENTO, D.PAIS, D.DIVISA, D.IMPORTE, ",
+      "tables": [],
+      "statement_kinds": [
+        "SELECT"
+      ],
+      "confidence": "NEEDS_REVIEW",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0075",
+      "source_file": "ext_histo/frmPrincipal.frm",
+      "procedure": "TraspasarHistoExtranjero",
+      "line_start": 709,
+      "statement_preview": " FROM   ",
+      "tables": [],
+      "statement_kinds": [
+        "FROM"
+      ],
+      "confidence": "NEEDS_REVIEW",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0076",
+      "source_file": "ext_histo/frmPrincipal.frm",
+      "procedure": "TraspasarHistoExtranjero",
+      "line_start": 778,
+      "statement_preview": "UPDATE ",
+      "tables": [],
+      "statement_kinds": [
+        "UPDATE"
+      ],
+      "confidence": "NEEDS_REVIEW",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0077",
+      "source_file": "ext_histo/frmPrincipal.frm",
+      "procedure": "TraspasarHistoExtranjero",
+      "line_start": 793,
+      "statement_preview": " SELECT * FROM ",
+      "tables": [],
+      "statement_kinds": [
+        "FROM",
+        "SELECT"
+      ],
+      "confidence": "NEEDS_REVIEW",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0078",
+      "source_file": "ext_histo/modEstadisticasExtranjero.bas",
+      "procedure": "GenerarResumenPaisesHistorico",
+      "line_start": 89,
+      "statement_preview": "Select distinct pais_desti ",
+      "tables": [],
+      "statement_kinds": [
+        "SELECT"
+      ],
+      "confidence": "NEEDS_REVIEW",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0079",
+      "source_file": "ext_histo/modEstadisticasExtranjero.bas",
+      "procedure": "GenerarResumenPaisesHistorico",
+      "line_start": 90,
+      "statement_preview": "from ",
+      "tables": [],
+      "statement_kinds": [
+        "FROM"
+      ],
+      "confidence": "NEEDS_REVIEW",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0080",
+      "source_file": "ext_histo/modEstadisticasExtranjero.bas",
+      "procedure": "GenerarResumenPaisesHistorico",
+      "line_start": 96,
+      "statement_preview": "DELETE FROM ",
+      "tables": [],
+      "statement_kinds": [
+        "DELETE",
+        "FROM"
+      ],
+      "confidence": "NEEDS_REVIEW",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0081",
+      "source_file": "ext_histo/modEstadisticasExtranjero.bas",
+      "procedure": "GenerarResumenPaisesHistorico",
+      "line_start": 106,
+      "statement_preview": "INSERT INTO ",
+      "tables": [],
+      "statement_kinds": [
+        "INSERT"
+      ],
+      "confidence": "NEEDS_REVIEW",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0082",
+      "source_file": "ext_histo/modEstadisticasExtranjero.bas",
+      "procedure": "GenerarResumenPaisesHistorico",
+      "line_start": 131,
+      "statement_preview": "Select count(*) as Num, Sum(Importe) as Imp ",
+      "tables": [],
+      "statement_kinds": [
+        "SELECT"
+      ],
+      "confidence": "NEEDS_REVIEW",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0083",
+      "source_file": "ext_histo/modEstadisticasExtranjero.bas",
+      "procedure": "GenerarResumenPaisesHistorico",
+      "line_start": 132,
+      "statement_preview": "From ",
+      "tables": [],
+      "statement_kinds": [
+        "FROM"
+      ],
+      "confidence": "NEEDS_REVIEW",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0084",
+      "source_file": "ext_histo/modEstadisticasExtranjero.bas",
+      "procedure": "GenerarResumenPaisesHistorico",
+      "line_start": 149,
+      "statement_preview": "Select count(*) as Num, Sum(Importe) as Imp ",
+      "tables": [],
+      "statement_kinds": [
+        "SELECT"
+      ],
+      "confidence": "NEEDS_REVIEW",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0085",
+      "source_file": "ext_histo/modEstadisticasExtranjero.bas",
+      "procedure": "GenerarResumenPaisesHistorico",
+      "line_start": 150,
+      "statement_preview": "From ",
+      "tables": [],
+      "statement_kinds": [
+        "FROM"
+      ],
+      "confidence": "NEEDS_REVIEW",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0086",
+      "source_file": "ext_histo/modEstadisticasExtranjero.bas",
+      "procedure": "GenerarResumenPaisesHistorico",
+      "line_start": 168,
+      "statement_preview": "Select count(*) as Num, Sum(Importe) as Imp ",
+      "tables": [],
+      "statement_kinds": [
+        "SELECT"
+      ],
+      "confidence": "NEEDS_REVIEW",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0087",
+      "source_file": "ext_histo/modEstadisticasExtranjero.bas",
+      "procedure": "GenerarResumenPaisesHistorico",
+      "line_start": 169,
+      "statement_preview": "From ",
+      "tables": [],
+      "statement_kinds": [
+        "FROM"
+      ],
+      "confidence": "NEEDS_REVIEW",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0088",
+      "source_file": "ext_histo/modEstadisticasExtranjero.bas",
+      "procedure": "GenerarResumenPaisesHistorico",
+      "line_start": 186,
+      "statement_preview": "UPDATE ",
+      "tables": [],
+      "statement_kinds": [
+        "UPDATE"
+      ],
+      "confidence": "NEEDS_REVIEW",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0089",
+      "source_file": "ext_histo/modEstadisticasExtranjero.bas",
+      "procedure": "GenerarResumenPaisesHistorico",
+      "line_start": 239,
+      "statement_preview": "select  ESTADIS1.PAIS, substr(DESCRIPCION,1,20) as NOM_PAIS, NUM_TRAV,IMP_TRAV,NUM_CHEQ,IMP_CHEQ,NUM_EURC,IMP_EURC ",
+      "tables": [],
+      "statement_kinds": [
+        "SELECT"
+      ],
+      "confidence": "NEEDS_REVIEW",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0090",
+      "source_file": "ext_histo/modEstadisticasExtranjero.bas",
+      "procedure": "GenerarResumenPaisesHistorico",
+      "line_start": 240,
+      "statement_preview": "from EXT_SALIDA.ESTADIS1 LEFT JOIN SYN_PAISES ",
+      "tables": [
+        "EXT_SALIDA.ESTADIS1",
+        "SYN_PAISES"
+      ],
+      "statement_kinds": [
+        "FROM",
+        "JOIN"
+      ],
+      "confidence": "CONFIRMED",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0091",
+      "source_file": "ext_histo/modEstadisticasExtranjero.bas",
+      "procedure": "GenerarEstadisticaPorPaisDivisa",
+      "line_start": 387,
+      "statement_preview": "Select pais_desti, divisa, tipo_docu_char, count(*) as cont , sum(importe) as total ",
+      "tables": [],
+      "statement_kinds": [
+        "SELECT"
+      ],
+      "confidence": "NEEDS_REVIEW",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0092",
+      "source_file": "ext_histo/modEstadisticasExtranjero.bas",
+      "procedure": "GenerarEstadisticaPorPaisDivisa",
+      "line_start": 388,
+      "statement_preview": "from ",
+      "tables": [],
+      "statement_kinds": [
+        "FROM"
+      ],
+      "confidence": "NEEDS_REVIEW",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0093",
+      "source_file": "ext_histo/modEstadisticasExtranjero.bas",
+      "procedure": "GenerarEstadisticaPorPaisDivisa",
+      "line_start": 399,
+      "statement_preview": "Select pais_desti, divisa, tipo_docu_char, count(*) as cont , sum(importe) as total ",
+      "tables": [],
+      "statement_kinds": [
+        "SELECT"
+      ],
+      "confidence": "NEEDS_REVIEW",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0094",
+      "source_file": "ext_histo/modEstadisticasExtranjero.bas",
+      "procedure": "GenerarEstadisticaPorPaisDivisa",
+      "line_start": 400,
+      "statement_preview": "from ",
+      "tables": [],
+      "statement_kinds": [
+        "FROM"
+      ],
+      "confidence": "NEEDS_REVIEW",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0095",
+      "source_file": "ext_histo/modEstadisticasExtranjero.bas",
+      "procedure": "GenerarEstadisticaPorPaisDivisa",
+      "line_start": 407,
+      "statement_preview": "DELETE FROM ",
+      "tables": [],
+      "statement_kinds": [
+        "DELETE",
+        "FROM"
+      ],
+      "confidence": "NEEDS_REVIEW",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0096",
+      "source_file": "ext_histo/modEstadisticasExtranjero.bas",
+      "procedure": "GenerarEstadisticaPorPaisDivisa",
+      "line_start": 421,
+      "statement_preview": "Select count(*) as cont, sum(importe) as total ",
+      "tables": [],
+      "statement_kinds": [
+        "SELECT"
+      ],
+      "confidence": "NEEDS_REVIEW",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0097",
+      "source_file": "ext_histo/modEstadisticasExtranjero.bas",
+      "procedure": "GenerarEstadisticaPorPaisDivisa",
+      "line_start": 422,
+      "statement_preview": "from ",
+      "tables": [],
+      "statement_kinds": [
+        "FROM"
+      ],
+      "confidence": "NEEDS_REVIEW",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0098",
+      "source_file": "ext_histo/modEstadisticasExtranjero.bas",
+      "procedure": "GenerarEstadisticaPorPaisDivisa",
+      "line_start": 441,
+      "statement_preview": "INSERT INTO ",
+      "tables": [],
+      "statement_kinds": [
+        "INSERT"
+      ],
+      "confidence": "NEEDS_REVIEW",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0099",
+      "source_file": "ext_histo/modEstadisticasExtranjero.bas",
+      "procedure": "GenerarEstadisticaPorPaisDivisa",
+      "line_start": 483,
+      "statement_preview": "select ESTADIS_PAIS.DIVISA,PAIS,DOCU_CHAR,DOC,IMPORT, ",
+      "tables": [],
+      "statement_kinds": [
+        "SELECT"
+      ],
+      "confidence": "NEEDS_REVIEW",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0100",
+      "source_file": "ext_histo/modEstadisticasExtranjero.bas",
+      "procedure": "GenerarEstadisticaPorPaisDivisa",
+      "line_start": 487,
+      "statement_preview": "from ESTADIS_PAIS left join divisas_ume ",
+      "tables": [
+        "DIVISAS_UME",
+        "ESTADIS_PAIS"
+      ],
+      "statement_kinds": [
+        "FROM",
+        "JOIN"
+      ],
+      "confidence": "CONFIRMED",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0101",
+      "source_file": "ext_histo/modEstadisticasExtranjero.bas",
+      "procedure": "GenerarEstadisticaCorresponsales",
+      "line_start": 697,
+      "statement_preview": "Select pais_desti, divisa, tipo_documento, town ",
+      "tables": [],
+      "statement_kinds": [
+        "SELECT"
+      ],
+      "confidence": "NEEDS_REVIEW",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0102",
+      "source_file": "ext_histo/modEstadisticasExtranjero.bas",
+      "procedure": "GenerarEstadisticaCorresponsales",
+      "line_start": 698,
+      "statement_preview": "from ",
+      "tables": [],
+      "statement_kinds": [
+        "FROM"
+      ],
+      "confidence": "NEEDS_REVIEW",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0103",
+      "source_file": "ext_histo/modEstadisticasExtranjero.bas",
+      "procedure": "GenerarEstadisticaCorresponsales",
+      "line_start": 705,
+      "statement_preview": "DELETE from ",
+      "tables": [],
+      "statement_kinds": [
+        "DELETE",
+        "FROM"
+      ],
+      "confidence": "NEEDS_REVIEW",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0104",
+      "source_file": "ext_histo/modEstadisticasExtranjero.bas",
+      "procedure": "GenerarEstadisticaCorresponsales",
+      "line_start": 729,
+      "statement_preview": "Select count(*) as cont, sum(importe) as total ",
+      "tables": [],
+      "statement_kinds": [
+        "SELECT"
+      ],
+      "confidence": "NEEDS_REVIEW",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0105",
+      "source_file": "ext_histo/modEstadisticasExtranjero.bas",
+      "procedure": "GenerarEstadisticaCorresponsales",
+      "line_start": 730,
+      "statement_preview": "from  ",
+      "tables": [],
+      "statement_kinds": [
+        "FROM"
+      ],
+      "confidence": "NEEDS_REVIEW",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0106",
+      "source_file": "ext_histo/modEstadisticasExtranjero.bas",
+      "procedure": "GenerarEstadisticaCorresponsales",
+      "line_start": 757,
+      "statement_preview": "SELECT * from ",
+      "tables": [],
+      "statement_kinds": [
+        "FROM",
+        "SELECT"
+      ],
+      "confidence": "NEEDS_REVIEW",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0107",
+      "source_file": "ext_histo/modEstadisticasExtranjero.bas",
+      "procedure": "GenerarEstadisticaCorresponsales",
+      "line_start": 767,
+      "statement_preview": "INSERT INTO ",
+      "tables": [],
+      "statement_kinds": [
+        "INSERT"
+      ],
+      "confidence": "NEEDS_REVIEW",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0108",
+      "source_file": "ext_histo/modEstadisticasExtranjero.bas",
+      "procedure": "GenerarEstadisticaCorresponsales",
+      "line_start": 782,
+      "statement_preview": "UPDATE ",
+      "tables": [],
+      "statement_kinds": [
+        "UPDATE"
+      ],
+      "confidence": "NEEDS_REVIEW",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0109",
+      "source_file": "ext_histo/modEstadisticasExtranjero.bas",
+      "procedure": "GenerarEstadisticaCorresponsales",
+      "line_start": 859,
+      "statement_preview": "select CUENTA, NOMBRE_DEST,ESTADIS2.DIVISA, SYN_DIVISAS.DESCRIPCION, ESTADIS2.PAIS, ",
+      "tables": [],
+      "statement_kinds": [
+        "SELECT"
+      ],
+      "confidence": "NEEDS_REVIEW",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0110",
+      "source_file": "ext_histo/modEstadisticasExtranjero.bas",
+      "procedure": "GenerarEstadisticaCorresponsales",
+      "line_start": 862,
+      "statement_preview": "from EXT_SALIDA.ESTADIS2 LEFT JOIN SYN_DIVISAS ",
+      "tables": [
+        "EXT_SALIDA.ESTADIS2",
+        "SYN_DIVISAS"
+      ],
+      "statement_kinds": [
+        "FROM",
+        "JOIN"
+      ],
+      "confidence": "CONFIRMED",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0111",
+      "source_file": "ext_histo/modEstadisticasExtranjero.bas",
+      "procedure": "GenerarEstadisticaCorresponsales",
+      "line_start": 864,
+      "statement_preview": "LEFT JOIN SYN_PAISES ",
+      "tables": [
+        "SYN_PAISES"
+      ],
+      "statement_kinds": [
+        "JOIN"
+      ],
+      "confidence": "CONFIRMED",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0112",
+      "source_file": "ext_histo/modEstadisticasExtranjero.bas",
+      "procedure": "Extrae_Datos",
+      "line_start": 967,
+      "statement_preview": "Delete from ",
+      "tables": [],
+      "statement_kinds": [
+        "DELETE",
+        "FROM"
+      ],
+      "confidence": "NEEDS_REVIEW",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0113",
+      "source_file": "ext_histo/modEstadisticasExtranjero.bas",
+      "procedure": "Extrae_Datos",
+      "line_start": 985,
+      "statement_preview": "INSERT INTO TMP_CHEQUES ",
+      "tables": [
+        "TMP_CHEQUES"
+      ],
+      "statement_kinds": [
+        "INSERT"
+      ],
+      "confidence": "CONFIRMED",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0114",
+      "source_file": "ext_histo/modEstadisticasExtranjero.bas",
+      "procedure": "Extrae_Datos",
+      "line_start": 986,
+      "statement_preview": "SELECT fecha_Proceso, importe, divisa, pais_desti, tipo_documento, ",
+      "tables": [],
+      "statement_kinds": [
+        "SELECT"
+      ],
+      "confidence": "NEEDS_REVIEW",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0115",
+      "source_file": "ext_histo/modEstadisticasExtranjero.bas",
+      "procedure": "Extrae_Datos",
+      "line_start": 988,
+      "statement_preview": "From syn_cheques ",
+      "tables": [
+        "SYN_CHEQUES"
+      ],
+      "statement_kinds": [
+        "FROM"
+      ],
+      "confidence": "CONFIRMED",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0116",
+      "source_file": "ext_histo/modEstadisticasExtranjero.bas",
+      "procedure": "busca_corresp_recu",
+      "line_start": 1033,
+      "statement_preview": "select * from ",
+      "tables": [],
+      "statement_kinds": [
+        "FROM",
+        "SELECT"
+      ],
+      "confidence": "NEEDS_REVIEW",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0117",
+      "source_file": "ext_histo/modEstadisticasExtranjero.bas",
+      "procedure": "busca_corresp_ok",
+      "line_start": 1138,
+      "statement_preview": "select * from ",
+      "tables": [],
+      "statement_kinds": [
+        "FROM",
+        "SELECT"
+      ],
+      "confidence": "NEEDS_REVIEW",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0118",
+      "source_file": "ext_histo/modEstadisticasExtranjero.bas",
+      "procedure": "busca_corresp_ok",
+      "line_start": 1164,
+      "statement_preview": "SELECT PAIS FROM ",
+      "tables": [],
+      "statement_kinds": [
+        "FROM",
+        "SELECT"
+      ],
+      "confidence": "NEEDS_REVIEW",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0119",
+      "source_file": "ext_histo/modEstadisticasExtranjero.bas",
+      "procedure": "calcularImprocedentes",
+      "line_start": 1230,
+      "statement_preview": "Select count(*) as tot from ",
+      "tables": [],
+      "statement_kinds": [
+        "FROM",
+        "SELECT"
+      ],
+      "confidence": "NEEDS_REVIEW",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0120",
+      "source_file": "ext_histo/modEstadisticasExtranjero.bas",
+      "procedure": "calcularImprocedentes",
+      "line_start": 1237,
+      "statement_preview": "Select count(*) as tot from ",
+      "tables": [],
+      "statement_kinds": [
+        "FROM",
+        "SELECT"
+      ],
+      "confidence": "NEEDS_REVIEW",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0121",
+      "source_file": "ext_histo/modEstadisticasExtranjero.bas",
+      "procedure": "calcularImprocedentes",
+      "line_start": 1244,
+      "statement_preview": "Select count(*) as tot from ",
+      "tables": [],
+      "statement_kinds": [
+        "FROM",
+        "SELECT"
+      ],
+      "confidence": "NEEDS_REVIEW",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0122",
+      "source_file": "ext_histo/modEstadisticasExtranjero.bas",
+      "procedure": "calcularDepurados",
+      "line_start": 1289,
+      "statement_preview": "Select count(*) as tot from ",
+      "tables": [],
+      "statement_kinds": [
+        "FROM",
+        "SELECT"
+      ],
+      "confidence": "NEEDS_REVIEW",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0123",
+      "source_file": "ext_histo/modEstadisticasExtranjero.bas",
+      "procedure": "calcularDepurados",
+      "line_start": 1296,
+      "statement_preview": "Select count(*) as tot from ",
+      "tables": [],
+      "statement_kinds": [
+        "FROM",
+        "SELECT"
+      ],
+      "confidence": "NEEDS_REVIEW",
+      "language": "vb6"
+    },
+    {
+      "item_id": "da-0124",
+      "source_file": "ext_histo/modEstadisticasExtranjero.bas",
+      "procedure": "calcularDepurados",
+      "line_start": 1303,
+      "statement_preview": "Select count(*) as tot from ",
+      "tables": [],
+      "statement_kinds": [
+        "FROM",
+        "SELECT"
+      ],
+      "confidence": "NEEDS_REVIEW",
+      "language": "vb6"
+    }
+  ]
+}
