@@ -201,3 +201,24 @@ All keys are read from `web.config` `appSettings`. If a key is absent or unparse
 
 ---
 **Note**: Document kept under 1500 lines. All content derived exclusively from codebase analysis.
+
+---
+
+## 9. Behavioral Contract
+
+### 9.1 Interfaces and Entry Points
+
+| Type | Identifier | Purpose | Source |
+|------|------------|---------|--------|
+| Static method | `CreditDecisionService.Evaluate(DataSet, DataRow, decimal, string, string)` | Evaluates one order and returns a `CreditDecision` (Status, Code, Explanation, EffectiveRisk, ExposureAfterOrder) | CreditDecisionService |
+
+### 9.2 Invariants and Oracles
+
+| # | Invariant | Rule | Observable | Oracle (input → expected output) | Source |
+|---|-----------|------|------------|----------------------------------|--------|
+| 1 | Hard overdue block ignores override | `overdueDays >= HardBlockOverdueDays (90)` → B90 | Status, Code | overdueDays=90, ManualOverride=true → Status=BLOCKED, Code=B90 | CreditDecisionService |
+| 2 | Blocked customer without override is blocked | `Blocked == true` AND `ManualOverride == false` → B01 | Status, Code | Blocked=true, ManualOverride=false, overdueDays=0 → Status=BLOCKED, Code=B01 | CreditDecisionService |
+| 3 | Exposure above 135% of limit is blocked | `exposure > creditLimit × 1.35` AND no override → B35 | Status, Code | creditLimit=1000, exposure=1351, ManualOverride=false → Status=BLOCKED, Code=B35 | CreditDecisionService |
+| 4 | Large non-card orders go to review even with override | `amount >= ManualReviewAmount (7500)` AND `paymentMethod != CARD` → R75 | Status, Code | amount=7500, paymentMethod=INVOICE, within limits → Status=REVIEW, Code=R75 | CreditDecisionService |
+| 5 | Standard approval | `exposure <= creditLimit` AND `effectiveRisk < HighRiskScore (72)` → A00 | Status, Code | exposure<=creditLimit, effectiveRisk=40, no other rule matched → Status=APPROVED, Code=A00 | CreditDecisionService |
+| 6 | Rules are evaluated in order, first match wins; no match yields review | catch-all → R99 | Status, Code | Input matching no rule 1–10 → Status=REVIEW, Code=R99 | CreditDecisionService |

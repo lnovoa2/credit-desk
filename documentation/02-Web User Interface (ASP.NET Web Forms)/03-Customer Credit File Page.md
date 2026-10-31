@@ -165,3 +165,31 @@ User → Clicks "Toggle manual override" (row N)
 
 ---
 *Note: Document maintained under 1500 lines. Focused on essential functional information.*
+
+---
+
+## 9. Behavioral Contract
+
+### 9.1 Events and Invoked Logic
+
+| Trigger | Invoked Logic | Effect | Source |
+|---------|---------------|--------|--------|
+| Click "Toggle manual override" on a customer row (`CommandName=ToggleOverride`) | Read customer ID from grid column 0, invert `ManualOverride`, append audit record, `LegacyRepository.Save()`, rebind grid | Customer's `ManualOverride` flips, audit entry (actor `USER`, `ManualOverride=True/False`) is stored, grid and feedback message refresh | Customers.aspx.cs |
+| First load (GET, non-postback) | `LegacyRepository.Load()` and bind `Customers` table | Full customer list shown, unfiltered and unsorted | Customers.aspx.cs |
+| Postback with unknown customer ID or other `CommandName` | Early return | No change, no error shown | Customers.aspx.cs |
+
+### 9.2 Interfaces and Entry Points
+
+| Type | Identifier | Purpose | Source |
+|------|------------|---------|--------|
+| Page (GET) | `/Customers.aspx` | Render customer grid | Customers.aspx |
+| Page (POST) | `/Customers.aspx` | Toggle override postback (`__EVENTARGUMENT` = row index) | Customers.aspx.cs |
+
+### 9.3 Invariants and Oracles
+
+| # | Invariant | Rule | Observable | Oracle (input → expected output) | Source |
+|---|-----------|------|------------|----------------------------------|--------|
+| 1 | Toggle is an involution | Two consecutive toggles restore the original value | `ManualOverride` | ManualOverride=false → toggle → true → toggle → false | Customers.aspx.cs |
+| 2 | Override never changes `Blocked` | `Blocked` is not modified by the page | `Blocked` | Blocked=true, toggle → Blocked=true | Customers.aspx.cs |
+| 3 | Every toggle is audited | One audit record per effective toggle | Audit log | Toggle customer 5 to true → audit(actor=USER, subject=5, detail="ManualOverride=True") | Customers.aspx.cs |
+| 4 | Unknown customer is ignored silently | `FindCustomer == null` → skip | DataSet, message | Toggle id=999999 → no data change, no error | Customers.aspx.cs |
